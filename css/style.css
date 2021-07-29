@@ -1,0 +1,1939 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  width: 1920px;
+  height: 960px;
+  background-image: url("../img/bg.svg");
+}
+.header img {
+  width: 40px;
+  height: 40px;
+  margin: 40px 300px 0 80px;
+}
+.header__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  margin-top: 40px;
+}
+.header__links-link {
+  margin-right: 56px;
+}
+.header__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  border-radius: 50px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 30px;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  margin-top: 40px;
+  margin-right: 300px;
+  width: 140px;
+  height: 40px;
+  font-size: 18px;
+}
+.header__button :hover {
+  background-color: #FFFFFF;
+  color: #7C6AFA;
+}
+.header__title {
+  margin-top: 200px;
+  margin-left: 312px;
+  color: white;
+  font-size: 64px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.header__sub {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 524px 0 0 312px;
+}
+.header__sub-card {
+  margin-right: 30px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 102px;
+  height: 112px;
+  background-color: #121212;
+}
+.header__sub-card h1 {
+  color: white;
+  margin-top: 20px;
+}
+.header__sub-card p {
+  color: white;
+}
+.header__info {
+  background-color: #121212;
+  width: 100%;
+  height: 130px;
+  margin-top: 393px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__info-btn {
+  width: 169px;
+  height: 44px;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  border-radius: 50px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin: 45px 111px 53px 312px;
+}
+.header__info-btn p {
+  margin-top: 10px;
+}
+.header__info__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 40px;
+}
+.header__info__left p {
+  color: gray;
+  margin-bottom: 10px;
+}
+.header__info__left p span {
+  color: white;
+  margin-left: 30px;
+}
+.header__info__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 40px;
+}
+.header__info__right p {
+  color: gray;
+  margin-left: 81px;
+}
+.header__info__right p span {
+  color: #FFFFFF;
+  margin-left: 30px;
+}
+.header__info__right-card img {
+  width: 714px;
+  height: 6px;
+}
+.header__info__right-card p {
+  color: gray;
+}
+.header__info__right-card p span {
+  color: gray;
+  margin-left: 623px;
+}
+
+.cell {
+  background-image: url("../img/cellBg.svg");
+  color: #FFFFFF;
+  width: 1920px;
+  height: 6599px;
+}
+.cell__about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 1301px;
+  height: 542px;
+}
+.cell__about img {
+  width: 526px;
+  height: 542px;
+  margin-left: 312px;
+  margin-top: 200px;
+}
+.cell__about-text {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 269px 446px 0 972px;
+}
+.cell__about-text h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.cell__about-text p {
+  color: gray;
+  padding-top: 45px;
+  width: 636px;
+  height: 156px;
+}
+.cell__start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 200px 312px 0 293px;
+  width: 1315px;
+  height: 552px;
+}
+.cell__start-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 200px;
+}
+.cell__start-title h1 {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+}
+.cell__start-title img {
+  width: 127px;
+  height: 127px;
+}
+.cell__start p {
+  color: gray;
+  margin-top: 49px;
+  font-family: "Roboto", sans-serif;
+}
+.cell__start__graphic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.cell__start__graphic__card {
+  color: #FFFFFF;
+  margin-top: 80px;
+}
+.cell__start__graphic__card-h1 {
+  font-size: 36px;
+}
+.cell__start__graphic__card-img {
+  margin-top: 20px;
+}
+.cell__start__graphic__card-p {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  width: 306px;
+  height: 88px;
+}
+.cell__profession {
+  width: 1296px;
+  height: 549px;
+  margin: 340px 312px 0 312px;
+}
+.cell__profession h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 48px;
+}
+.cell__profession__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 80px;
+  margin-top: 120px;
+}
+.cell__profession__cards-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+}
+.cell__profession__cards-card img {
+  margin-left: 158px;
+  width: 100px;
+  height: 100px;
+}
+.cell__profession__cards-card span {
+  font-size: 24px;
+  margin-top: 66px;
+  font-family: "Roboto", sans-serif;
+  width: 416px;
+  height: 68px;
+  margin-left: 70px;
+}
+.cell__profession__cards-card p {
+  color: gray;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  width: 358px;
+  height: 104px;
+  margin-left: 50px;
+}
+.cell__partners {
+  margin: 200px 312px 0 293px;
+  width: 1315px;
+  height: 487px;
+}
+.cell__partners-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+.cell__partners__icons {
+  margin-top: 117px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.cell__partners__icons-icon {
+  margin-right: 120px;
+}
+.cell__program {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+.cell__program-head h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+}
+.cell__program-head p {
+  color: gray;
+  font-family: "Roboto", sans-serif;
+  margin-top: 30px;
+  text-align: center;
+}
+.cell__program__timeline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 750px;
+  height: 1116.8px;
+  color: white;
+  margin: 153px 577px 0 593px;
+}
+.cell__program__timeline img {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.cell__program__timeline__week1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  width: 364px;
+  height: 95px;
+}
+.cell__program__timeline__week1 p {
+  color: gray;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+.cell__program__timeline__week1 span {
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+.cell__program__timeline__week1-line1 {
+  margin-left: auto;
+  width: 40px;
+  border: 1px solid gray;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  color: #FFFFFF;
+}
+.cell__program__timeline__week2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  width: 364px;
+  height: 95px;
+  margin-left: 384px;
+  margin-top: 101px;
+}
+.cell__program__timeline__week2 p {
+  color: gray;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+.cell__program__timeline__week2 span {
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+.cell__program__timeline__week2-line2 {
+  margin-right: auto;
+  width: 40px;
+  border: 1px solid gray;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  color: gray;
+}
+.cell__program__timeline__week3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  width: 364px;
+  height: 95px;
+  margin-top: 237px;
+}
+.cell__program__timeline__week3 p {
+  color: gray;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+.cell__program__timeline__week3 span {
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+.cell__program__timeline__week3-line3 {
+  margin-left: auto;
+  width: 40px;
+  border: 1px solid gray;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  color: #FFFFFF;
+}
+.cell__program__timeline__week4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  width: 364px;
+  height: 95px;
+  margin-left: 384px;
+  margin-top: 391px;
+}
+.cell__program__timeline__week4 p {
+  color: gray;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+.cell__program__timeline__week4 span {
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+.cell__program__timeline__week4-line4 {
+  margin-right: auto;
+  width: 40px;
+  border: 1px solid gray;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  color: #FFFFFF;
+}
+.cell__program__timeline__week5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  width: 364px;
+  height: 95px;
+  margin-top: 562px;
+}
+.cell__program__timeline__week5 p {
+  color: gray;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+.cell__program__timeline__week5 span {
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+.cell__program__timeline__week5-line5 {
+  margin-left: auto;
+  width: 40px;
+  border: 1px solid gray;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  color: #FFFFFF;
+}
+.cell__program__timeline__week6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  width: 364px;
+  height: 95px;
+  margin-left: 384px;
+  margin-top: 760px;
+}
+.cell__program__timeline__week6 p {
+  color: gray;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+.cell__program__timeline__week6 span {
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+.cell__program__timeline__week6-line6 {
+  margin-right: auto;
+  width: 40px;
+  border: 1px solid gray;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  color: #FFFFFF;
+}
+.cell__program__timeline__week7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  width: 364px;
+  height: 95px;
+  margin-top: 931px;
+}
+.cell__program__timeline__week7 p {
+  color: gray;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+.cell__program__timeline__week7 span {
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+.cell__program__timeline__week7-line7 {
+  margin-left: auto;
+  width: 40px;
+  border: 1px solid gray;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  color: #FFFFFF;
+}
+.cell__teachers {
+  font-family: "Roboto", sans-serif;
+  margin: 170px 312px 0 266px;
+  width: 1341px;
+  height: 618px;
+}
+.cell__teachers-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFFFFF;
+}
+.cell__teachers-head h1 {
+  padding-top: 75px;
+}
+.cell__teachers__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 416px;
+  height: 379px;
+  margin-left: 147px;
+}
+.cell__teachers__cards-card {
+  margin-right: 250px;
+}
+.cell__teachers__cards-card h1 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+.cell__teachers__cards-card p {
+  margin-top: 15px;
+}
+.cell__teachers__cards-card button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 30px;
+  border: 1px solid white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+.cell__teachers__cards-card button:hover {
+  background: #7C6AFA;
+  color: black;
+}
+.cell__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 547px;
+  height: 419px;
+  margin: 210px 687px 30px 686px;
+}
+.cell__footer h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+}
+.cell__footer p {
+  margin-top: 30px;
+  color: gray;
+}
+.cell__footer-btn {
+  margin-left: 195px;
+  width: 160px;
+  height: 44px;
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 30px;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  border-radius: 50px;
+}
+.cell__footer-btn:hover {
+  color: #FFFFFF;
+  background: green;
+}
+.cell__footer__icons {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.cell__footer__icons-icon1 {
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+}
+.cell__footer__icons-icon2 {
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+}
+.cell__footer__icons-icon3 {
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+}
+.cell__footer__icons-icon4 {
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+}
+
+@media (max-width: 320px) {
+  .header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 430px;
+  }
+  .header img {
+    width: 105px;
+    margin: 15px 30px 0 13px;
+  }
+  .header__links {
+    display: none;
+  }
+  .header__button {
+    margin-top: 15px;
+    margin-right: 0;
+    padding: 0;
+  }
+  .header__title {
+    margin-top: 16px;
+    margin-left: 52px;
+    font-size: 35px;
+  }
+  .header__sub {
+    margin: 220px 0 0 41px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header__sub-card h1 {
+    color: plum;
+  }
+  .header__sub-card p {
+    color: skyblue;
+  }
+  .header__info {
+    display: none;
+  }
+
+  .cell {
+    width: 100%;
+  }
+  .cell__about img {
+    width: 332px;
+    height: 542px;
+    margin-left: 377px;
+    margin-top: -39px;
+  }
+  .cell__about-text {
+    margin: 150px 0;
+  }
+  .cell__about-text p {
+    width: 375px;
+    color: lightpink;
+  }
+  .cell__start {
+    width: 100%;
+    height: 250px;
+    margin: 0px 0px 0 0px;
+  }
+  .cell__start-title {
+    margin: 0px 0px 0 0px;
+  }
+  .cell__start-title p {
+    margin: 50px 95px;
+    color: lightskyblue;
+  }
+  .cell__start__graphic {
+    display: none;
+  }
+  .cell__profession {
+    width: 100%;
+    height: 906px;
+    margin: 0px 0px 0px 0px;
+  }
+  .cell__profession h1 {
+    display: none;
+  }
+  .cell__profession__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 50px;
+    margin-left: 160px;
+  }
+  .cell__profession__cards-card p {
+    color: lightgreen;
+  }
+  .cell__partners {
+    width: 100%;
+    height: 555px;
+    margin: 225px 277px 0 93px;
+  }
+  .cell__partners__icons {
+    margin-top: 15px;
+  }
+  .cell__program__timeline {
+    margin: 77px 558px 0 0px;
+  }
+  .cell__program__timeline__week1 span {
+    color: #C89AFC;
+  }
+  .cell__program__timeline__week2 span {
+    color: cornflowerblue;
+  }
+  .cell__program__timeline__week3 span {
+    color: lightgreen;
+  }
+  .cell__program__timeline__week4 span {
+    color: pink;
+  }
+  .cell__program__timeline__week5 span {
+    color: indianred;
+  }
+  .cell__program__timeline__week6 span {
+    color: yellow;
+  }
+  .cell__program__timeline__week7 span {
+    color: olive;
+  }
+  .cell__teachers {
+    margin: 0px;
+    height: 1610px;
+  }
+  .cell__teachers-head {
+    margin-left: 95px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .cell__teachers__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 260px;
+  }
+  .cell__teachers__cards-card {
+    margin-bottom: 80px;
+  }
+  .cell__teachers__cards-card button {
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+  }
+  .cell__footer {
+    margin: 50px 95px;
+  }
+}
+@media (max-width: 320px) {
+  .header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 431px;
+  }
+  .header img {
+    width: 81px;
+    margin: 15px 30px 0 13px;
+  }
+  .header__links {
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header__button {
+    margin-top: 8px;
+    margin-right: 10px;
+    padding: 10px 20px 10px 20px;
+  }
+  .header__title {
+    margin-top: 25px;
+    margin-left: 43px;
+    font-size: 30px;
+  }
+  .header__sub {
+    margin: 220px 0 0 41px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header__sub-card {
+    margin-bottom: 15px;
+  }
+  .header__sub-card h1 {
+    color: plum;
+  }
+  .header__sub-card p {
+    color: skyblue;
+  }
+  .header__info {
+    display: none;
+  }
+
+  .cell {
+    width: 100%;
+  }
+  .cell__about img {
+    width: 332px;
+    height: 542px;
+    margin-top: 80px;
+    margin-left: 43px;
+  }
+  .cell__about-text {
+    margin: 150px 25px;
+    display: none;
+  }
+  .cell__about-text p {
+    width: 375px;
+    color: lightpink;
+    display: none;
+  }
+  .cell__start {
+    width: 100%;
+    height: 250px;
+    margin: 4px 0 0 20px;
+  }
+  .cell__start-title {
+    margin: 0px 0px 0 0px;
+  }
+  .cell__start-title p {
+    margin: 50px 95px;
+    color: lightskyblue;
+  }
+  .cell__start__graphic {
+    display: none;
+  }
+  .cell__profession {
+    width: 100%;
+    height: 906px;
+    margin: 0 0 0 0;
+  }
+  .cell__profession h1 {
+    display: none;
+  }
+  .cell__profession__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 50px;
+    margin-left: -36px;
+  }
+  .cell__profession__cards-card p {
+    color: lightgreen;
+  }
+  .cell__profession__cards-card img {
+    margin-left: 180px;
+    margin-top: 30px;
+  }
+  .cell__partners {
+    width: 100%;
+    height: 555px;
+    margin: 350px 0 0 0;
+  }
+  .cell__partners h1 {
+    margin-top: 25px;
+  }
+  .cell__partners__icons {
+    margin-top: 15px;
+    margin-left: 92px;
+  }
+  .cell__program {
+    margin-top: 400px;
+  }
+  .cell__program__timeline {
+    margin: 77px 0 0 -23px;
+    position: relative;
+  }
+  .cell__program__timeline img {
+    left: 360px;
+    height: 1100px;
+  }
+  .cell__program__timeline__week1 {
+    margin-left: 50px;
+    width: 199px;
+  }
+  .cell__program__timeline__week1 span {
+    color: #C89AFC;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week1-line1 {
+    position: absolute;
+    top: 64px;
+    left: 213px;
+    width: 40px;
+    border: 1px solid gray;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #FFFFFF;
+  }
+  .cell__program__timeline__week2 {
+    margin-left: 50px;
+    width: 199px;
+  }
+  .cell__program__timeline__week2 span {
+    color: cornflowerblue;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week2-line2 {
+    position: absolute;
+    top: 50px;
+    left: 213px;
+  }
+  .cell__program__timeline__week3 {
+    width: 199px;
+    margin-left: 50px;
+  }
+  .cell__program__timeline__week3 span {
+    color: lightgreen;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week3-line3 {
+    position: absolute;
+    top: 64px;
+    left: 213px;
+    width: 40px;
+    border: 1px solid gray;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #FFFFFF;
+  }
+  .cell__program__timeline__week4 {
+    margin-left: 50px;
+    width: 199px;
+  }
+  .cell__program__timeline__week4 span {
+    color: pink;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week4-line4 {
+    position: absolute;
+    top: 50px;
+    left: 213px;
+  }
+  .cell__program__timeline__week5 {
+    width: 199px;
+    margin-left: 50px;
+  }
+  .cell__program__timeline__week5 span {
+    color: indianred;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week5-line5 {
+    position: absolute;
+    top: 64px;
+    left: 213px;
+    width: 40px;
+    border: 1px solid gray;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #FFFFFF;
+  }
+  .cell__program__timeline__week6 {
+    margin-left: 50px;
+    width: 199px;
+  }
+  .cell__program__timeline__week6 span {
+    color: yellow;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week6-line6 {
+    position: absolute;
+    top: 50px;
+    left: 213px;
+  }
+  .cell__program__timeline__week7 {
+    margin-left: 50px;
+    width: 199px;
+  }
+  .cell__program__timeline__week7 span {
+    color: olive;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week7-line7 {
+    position: absolute;
+    top: 64px;
+    left: 213px;
+    width: 40px;
+    border: 1px solid gray;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #FFFFFF;
+  }
+  .cell__teachers {
+    margin: 0;
+    height: 1570px;
+  }
+  .cell__teachers-head {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .cell__teachers-head img {
+    width: 120px;
+    height: 145px;
+  }
+  .cell__teachers-head h1 {
+    padding-top: 42px;
+    margin-left: -20px;
+    font-size: 28px;
+  }
+  .cell__teachers__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 105px;
+  }
+  .cell__teachers__cards-card {
+    margin-bottom: 80px;
+  }
+  .cell__teachers__cards-card h1 {
+    margin-left: 40px;
+  }
+  .cell__teachers__cards-card p {
+    margin-left: 40px;
+  }
+  .cell__teachers__cards-card button {
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    margin-left: 30px;
+  }
+  .cell__footer {
+    margin: 50px 0;
+    width: 375px;
+  }
+  .cell__footer h1 {
+    font-size: 30px;
+    margin-left: 0;
+  }
+  .cell__footer-btn {
+    margin-left: 110px;
+  }
+}
+@media (max-width: 375px) and (min-width: 321px) {
+  .header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 431px;
+  }
+  .header img {
+    width: 81px;
+    margin: 15px 30px 0 13px;
+  }
+  .header__links {
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header__button {
+    margin-top: 8px;
+    margin-right: 10px;
+    padding: 10px 20px 10px 20px;
+  }
+  .header__title {
+    margin-top: 25px;
+    margin-left: 43px;
+    font-size: 30px;
+  }
+  .header__sub {
+    margin: 220px 0 0 41px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header__sub-card {
+    margin-bottom: 15px;
+  }
+  .header__sub-card h1 {
+    color: plum;
+  }
+  .header__sub-card p {
+    color: skyblue;
+  }
+  .header__info {
+    display: none;
+  }
+
+  .cell {
+    width: 100%;
+  }
+  .cell__about img {
+    width: 332px;
+    height: 542px;
+    margin-top: 80px;
+    margin-left: 43px;
+  }
+  .cell__about-text {
+    margin: 150px 25px;
+    display: none;
+  }
+  .cell__about-text p {
+    width: 375px;
+    color: lightpink;
+    display: none;
+  }
+  .cell__start {
+    width: 100%;
+    height: 250px;
+    margin: 4px 0 0 20px;
+  }
+  .cell__start-title {
+    margin: 0px 0px 0 0px;
+  }
+  .cell__start-title p {
+    margin: 50px 95px;
+    color: lightskyblue;
+  }
+  .cell__start__graphic {
+    display: none;
+  }
+  .cell__profession {
+    width: 100%;
+    height: 906px;
+    margin: 0 0 0 0;
+  }
+  .cell__profession h1 {
+    display: none;
+  }
+  .cell__profession__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 50px;
+    margin-left: -36px;
+  }
+  .cell__profession__cards-card p {
+    color: lightgreen;
+  }
+  .cell__profession__cards-card img {
+    margin-left: 180px;
+    margin-top: 30px;
+  }
+  .cell__partners {
+    width: 100%;
+    height: 555px;
+    margin: 350px 0 0 0;
+  }
+  .cell__partners h1 {
+    margin-top: 25px;
+  }
+  .cell__partners__icons {
+    margin-top: 15px;
+    margin-left: 92px;
+  }
+  .cell__program {
+    margin-top: 400px;
+  }
+  .cell__program__timeline {
+    margin: 77px 0 0 -23px;
+    position: relative;
+  }
+  .cell__program__timeline img {
+    left: 360px;
+    height: 1100px;
+  }
+  .cell__program__timeline__week1 {
+    margin-left: 50px;
+    width: 199px;
+  }
+  .cell__program__timeline__week1 span {
+    color: #C89AFC;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week1-line1 {
+    position: absolute;
+    top: 64px;
+    left: 213px;
+    width: 40px;
+    border: 1px solid gray;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #FFFFFF;
+  }
+  .cell__program__timeline__week2 {
+    margin-left: 50px;
+    width: 199px;
+  }
+  .cell__program__timeline__week2 span {
+    color: cornflowerblue;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week2-line2 {
+    position: absolute;
+    top: 50px;
+    left: 213px;
+  }
+  .cell__program__timeline__week3 {
+    width: 199px;
+    margin-left: 50px;
+  }
+  .cell__program__timeline__week3 span {
+    color: lightgreen;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week3-line3 {
+    position: absolute;
+    top: 64px;
+    left: 213px;
+    width: 40px;
+    border: 1px solid gray;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #FFFFFF;
+  }
+  .cell__program__timeline__week4 {
+    margin-left: 50px;
+    width: 199px;
+  }
+  .cell__program__timeline__week4 span {
+    color: pink;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week4-line4 {
+    position: absolute;
+    top: 50px;
+    left: 213px;
+  }
+  .cell__program__timeline__week5 {
+    width: 199px;
+    margin-left: 50px;
+  }
+  .cell__program__timeline__week5 span {
+    color: indianred;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week5-line5 {
+    position: absolute;
+    top: 64px;
+    left: 213px;
+    width: 40px;
+    border: 1px solid gray;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #FFFFFF;
+  }
+  .cell__program__timeline__week6 {
+    margin-left: 50px;
+    width: 199px;
+  }
+  .cell__program__timeline__week6 span {
+    color: yellow;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week6-line6 {
+    position: absolute;
+    top: 50px;
+    left: 213px;
+  }
+  .cell__program__timeline__week7 {
+    margin-left: 50px;
+    width: 199px;
+  }
+  .cell__program__timeline__week7 span {
+    color: olive;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week7-line7 {
+    position: absolute;
+    top: 64px;
+    left: 213px;
+    width: 40px;
+    border: 1px solid gray;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #FFFFFF;
+  }
+  .cell__teachers {
+    margin: 0;
+    height: 1570px;
+  }
+  .cell__teachers-head {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .cell__teachers-head img {
+    width: 120px;
+    height: 145px;
+  }
+  .cell__teachers-head h1 {
+    padding-top: 42px;
+    margin-left: -20px;
+    font-size: 28px;
+  }
+  .cell__teachers__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 105px;
+  }
+  .cell__teachers__cards-card {
+    margin-bottom: 80px;
+  }
+  .cell__teachers__cards-card h1 {
+    margin-left: 40px;
+  }
+  .cell__teachers__cards-card p {
+    margin-left: 40px;
+  }
+  .cell__teachers__cards-card button {
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    margin-left: 30px;
+  }
+  .cell__footer {
+    margin: 50px 0;
+    width: 375px;
+  }
+  .cell__footer h1 {
+    font-size: 30px;
+    margin-left: 0;
+  }
+  .cell__footer-btn {
+    margin-left: 110px;
+  }
+}
+@media (max-width: 425px) and (min-width: 376px) {
+  .header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 430px;
+  }
+  .header img {
+    width: 80px;
+    margin: 15px 30px 0 13px;
+  }
+  .header__links {
+    display: none;
+  }
+  .header__button {
+    margin-top: 7px;
+    margin-right: 10px;
+    padding: 10px 20px 10px 20px;
+  }
+  .header__title {
+    margin-top: 25px;
+    margin-left: 43px;
+    font-size: 30px;
+  }
+  .header__sub {
+    margin: 220px 0 0 41px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header__sub-card {
+    margin-bottom: 15px;
+  }
+  .header__sub-card h1 {
+    color: plum;
+  }
+  .header__sub-card p {
+    color: skyblue;
+  }
+  .header__info {
+    display: none;
+  }
+
+  .cell {
+    width: 100%;
+  }
+  .cell__about img {
+    width: 332px;
+    height: 542px;
+    margin-top: 80px;
+    margin-left: 43px;
+  }
+  .cell__about-text {
+    margin: 150px 25px;
+    display: none;
+  }
+  .cell__about-text p {
+    width: 375px;
+    color: lightpink;
+    display: none;
+  }
+  .cell__start {
+    width: 100%;
+    height: 250px;
+    margin: 4px 0 0 20px;
+  }
+  .cell__start-title {
+    margin: 0px 0px 0 0px;
+  }
+  .cell__start-title p {
+    margin: 50px 95px;
+    color: lightskyblue;
+  }
+  .cell__start__graphic {
+    display: none;
+  }
+  .cell__profession {
+    width: 100%;
+    height: 906px;
+    margin: 0 0 0 0;
+  }
+  .cell__profession h1 {
+    display: none;
+  }
+  .cell__profession__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  .cell__profession__cards-card p {
+    color: lightgreen;
+  }
+  .cell__partners {
+    width: 100%;
+    height: 555px;
+    margin: 225px 277px 0 30px;
+  }
+  .cell__partners__icons {
+    margin-top: 15px;
+    margin-left: 92px;
+  }
+  .cell__program {
+    margin-top: 400px;
+  }
+  .cell__program__timeline {
+    margin: 77px 0 0 0;
+    position: relative;
+  }
+  .cell__program__timeline img {
+    left: 360px;
+    height: 1100px;
+  }
+  .cell__program__timeline__week1 {
+    margin-left: 50px;
+    width: 199px;
+  }
+  .cell__program__timeline__week1 span {
+    color: #C89AFC;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week1-line1 {
+    position: absolute;
+    top: 64px;
+    left: 213px;
+    width: 40px;
+    border: 1px solid gray;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #FFFFFF;
+  }
+  .cell__program__timeline__week2 {
+    margin-left: 50px;
+    width: 199px;
+  }
+  .cell__program__timeline__week2 span {
+    color: cornflowerblue;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week2-line2 {
+    position: absolute;
+    top: 50px;
+    left: 213px;
+  }
+  .cell__program__timeline__week3 {
+    width: 199px;
+    margin-left: 50px;
+  }
+  .cell__program__timeline__week3 span {
+    color: lightgreen;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week3-line3 {
+    position: absolute;
+    top: 64px;
+    left: 213px;
+    width: 40px;
+    border: 1px solid gray;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #FFFFFF;
+  }
+  .cell__program__timeline__week4 {
+    margin-left: 50px;
+    width: 199px;
+  }
+  .cell__program__timeline__week4 span {
+    color: pink;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week4-line4 {
+    position: absolute;
+    top: 50px;
+    left: 213px;
+  }
+  .cell__program__timeline__week5 {
+    width: 199px;
+    margin-left: 50px;
+  }
+  .cell__program__timeline__week5 span {
+    color: indianred;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week5-line5 {
+    position: absolute;
+    top: 64px;
+    left: 213px;
+    width: 40px;
+    border: 1px solid gray;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #FFFFFF;
+  }
+  .cell__program__timeline__week6 {
+    margin-left: 50px;
+    width: 199px;
+  }
+  .cell__program__timeline__week6 span {
+    color: yellow;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week6-line6 {
+    position: absolute;
+    top: 50px;
+    left: 213px;
+  }
+  .cell__program__timeline__week7 {
+    margin-left: 50px;
+    width: 199px;
+  }
+  .cell__program__timeline__week7 span {
+    color: olive;
+    font-size: 16px;
+  }
+  .cell__program__timeline__week7-line7 {
+    position: absolute;
+    top: 64px;
+    left: 213px;
+    width: 40px;
+    border: 1px solid gray;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #FFFFFF;
+  }
+  .cell__teachers {
+    margin: 0;
+    height: 1610px;
+  }
+  .cell__teachers-head {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .cell__teachers-head img {
+    width: 138px;
+    height: 147px;
+  }
+  .cell__teachers-head h1 {
+    padding-top: 40px;
+    margin-left: -20px;
+    font-size: 30px;
+  }
+  .cell__teachers__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 135px;
+  }
+  .cell__teachers__cards-card {
+    margin-bottom: 80px;
+  }
+  .cell__teachers__cards-card h1 {
+    margin-left: 40px;
+  }
+  .cell__teachers__cards-card p {
+    margin-left: 40px;
+  }
+  .cell__teachers__cards-card button {
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    margin-left: 30px;
+  }
+  .cell__footer {
+    margin: 50px 0;
+    width: 424px;
+  }
+  .cell__footer h1 {
+    font-size: 30px;
+    margin-left: 0;
+  }
+  .cell__footer-btn {
+    margin-left: 142px;
+  }
+}
+@media (max-width: 768px) and (min-width: 426px) {
+  .header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 430px;
+  }
+  .header img {
+    width: 105px;
+    margin: 15px 30px 0 13px;
+  }
+  .header__links {
+    display: none;
+  }
+  .header__button {
+    margin-top: 15px;
+    margin-right: 300px;
+  }
+  .header__title {
+    margin-top: 16px;
+    margin-left: 52px;
+    font-size: 35px;
+  }
+  .header__sub {
+    margin: 220px 0 0 41px;
+  }
+  .header__sub-card h1 {
+    color: plum;
+  }
+  .header__sub-card p {
+    color: skyblue;
+  }
+  .header__info {
+    display: none;
+  }
+
+  .cell {
+    width: 100%;
+  }
+  .cell__about img {
+    width: 332px;
+    height: 542px;
+    margin-left: 377px;
+    margin-top: -39px;
+  }
+  .cell__about-text {
+    margin: 150px 0;
+  }
+  .cell__about-text p {
+    width: 375px;
+    color: lightpink;
+  }
+  .cell__start {
+    width: 100%;
+    height: 250px;
+    margin: 0px 0px 0 0px;
+  }
+  .cell__start-title {
+    margin: 0px 0px 0 0px;
+  }
+  .cell__start-title p {
+    margin: 50px 95px;
+    color: lightskyblue;
+  }
+  .cell__start__graphic {
+    display: none;
+  }
+  .cell__profession {
+    width: 100%;
+    height: 906px;
+    margin: 0px 0px 0px 0px;
+  }
+  .cell__profession h1 {
+    display: none;
+  }
+  .cell__profession__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 50px;
+    margin-left: 160px;
+  }
+  .cell__profession__cards-card p {
+    color: lightgreen;
+  }
+  .cell__partners {
+    width: 100%;
+    height: 555px;
+    margin: 225px 277px 0 93px;
+  }
+  .cell__partners__icons {
+    margin-top: 15px;
+  }
+  .cell__program__timeline {
+    margin: 77px 558px 0 0px;
+  }
+  .cell__program__timeline__week1 span {
+    color: #C89AFC;
+  }
+  .cell__program__timeline__week2 span {
+    color: cornflowerblue;
+  }
+  .cell__program__timeline__week3 span {
+    color: lightgreen;
+  }
+  .cell__program__timeline__week4 span {
+    color: pink;
+  }
+  .cell__program__timeline__week5 span {
+    color: indianred;
+  }
+  .cell__program__timeline__week6 span {
+    color: yellow;
+  }
+  .cell__program__timeline__week7 span {
+    color: olive;
+  }
+  .cell__teachers {
+    margin: 0px;
+    height: 1610px;
+  }
+  .cell__teachers-head {
+    margin-left: 95px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .cell__teachers__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 260px;
+  }
+  .cell__teachers__cards-card {
+    margin-bottom: 80px;
+  }
+  .cell__teachers__cards-card button {
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+  }
+  .cell__footer {
+    margin: 50px 95px;
+  }
+}
